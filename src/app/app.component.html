@@ -2,11 +2,18 @@
   <ion-menu contentId="menu-content" menuId="menu-content" side="start">
     <ion-header>
       <ion-toolbar>
-        <ion-title>Awesome avocado menu</ion-title>
+        <ion-title color="success">Menu</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content>
-      Awesome avocado content
+      <ion-list [inset]="true">
+        <ion-menu-toggle *ngFor="let item of componentes | async">
+          <ion-item [routerLink]="item.redirectTo">
+            <ion-icon color="success" slot="start" [name]="item.icon"></ion-icon>
+            <ion-label>{{item.name}}</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
     </ion-content>
   </ion-menu>
   <ion-router-outlet id="menu-content"></ion-router-outlet>

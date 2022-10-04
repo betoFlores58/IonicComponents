@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header class="ion-no-border">
   <ion-toolbar>
     
     <ion-buttons slot="start">
@@ -22,10 +22,4 @@
   <ion-button routerLink="/action-sheet" expand="block" shape="round">
     Action sheet
   </ion-button>-->
-  <ion-list [inset]="true">
-    <ion-item *ngFor="let item of componentes |async" [routerLink]="item.redirectTo">
-      <ion-icon color="success" slot="start" [name]="item.icon"></ion-icon>
-      <ion-label>{{item.name}}</ion-label>
-    </ion-item>
-  </ion-list>
 </ion-content>
