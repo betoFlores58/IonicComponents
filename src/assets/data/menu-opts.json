@@ -1,0 +1,72 @@
+[
+    {
+        "icon": "american-football",
+        "name": "Action-Sheet",
+        "redirectTo": "/action-sheet"
+    },
+    {
+        "icon": "alert-outline",
+        "name": "Alert",
+        "redirectTo": "/alert"
+    },
+    {
+        "icon": "person-circle-outline",
+        "name": "Avatar",
+        "redirectTo": "/avatar"
+    },
+    {
+        "icon": "radio-button-on-outline",
+        "name": "Button",
+        "redirectTo": "/button"
+    },
+    {
+        "icon": "id-card",
+        "name": "Card",
+        "redirectTo": "/card"
+    },
+    {
+        "icon": "checkmark-circle-outline",
+        "name": "Checkbox",
+        "redirectTo": "/check"
+    },
+    {
+        "icon": "calendar-number",
+        "name": "Date-Time",
+        "redirectTo": "/date-time"
+    },
+    {
+        "icon": "car-outline",
+        "name": "Fab",
+        "redirectTo": "/fab"
+    },
+    {
+        "icon": "grid",
+        "name": "Grid",
+        "redirectTo": "/grid"
+    },
+    {
+        "icon": "infinite",
+        "name": "Infinite Scroll",
+        "redirectTo": "/infinite-scroll"
+    },
+    {
+        "icon": "list-circle",
+        "name": "List Reorder",
+        "redirectTo": "/list-reorder"
+    },
+    {
+        "icon": "albums-outline",
+        "name": "Input",
+        "redirectTo": "/input"
+    },
+    {
+        "icon": "list-outline",
+        "name": "List",
+        "redirectTo": "/list"
+    },
+    {
+        "icon": "reload",
+        "name": "Loading",
+        "redirectTo": "/loading"
+    }
+]

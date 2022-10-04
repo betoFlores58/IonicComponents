@@ -1,0 +1,25 @@
+<app-header title="Date-Time"></app-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Calendar
+      </ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-datetime hourCycle="h11" (ionChange)="cambioFecha($event)"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-datetime presentation="month-year">
+        <span slot="title">Select a Reservation Date</span>
+      </ion-datetime>
+    </ion-item>
+    <ion-label>
+      Time
+    </ion-label>
+    <ion-item>
+      <ion-datetime presentation="time"></ion-datetime>
+    </ion-item>
+  </ion-list>
+</ion-content>
