@@ -1,4 +1,4 @@
-export interface Componentes{
+export interface Componente{
   icon: string;
   name: string;
   redirectTo: string;

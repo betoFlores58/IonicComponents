@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuController } from '@ionic/angular';
 import { Observable } from 'rxjs';
-import { Componentes } from 'src/app/interfaces/interfaces';
+import { Componente } from 'src/app/interfaces/interfaces';
 import { DataService } from '../../services/data.service';
 
 @Component({
@@ -28,7 +28,7 @@ export class InicioPage implements OnInit {
     redirectTo: '/action-sheet'
     }
 ];*/
-  componentes: Observable<Componentes[]>;
+  componentes: Observable<Componente[]>;
 
   constructor(private menuCtrl: MenuController, private dataService: DataService) { }
 
@@ -36,6 +36,6 @@ export class InicioPage implements OnInit {
     this.componentes = this.dataService.getMenuOptions();
   }
   mostrarMenu(){
-    this.menuCtrl.open();
+    this.menuCtrl.open('menu-controller');
   }
 }

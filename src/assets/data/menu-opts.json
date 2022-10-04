@@ -68,5 +68,15 @@
         "icon": "reload",
         "name": "Loading",
         "redirectTo": "/loading"
+    },
+    {
+        "icon": "duplicate-outline",
+        "name": "Modal",
+        "redirectTo": "/modal"
+    },
+    {
+        "icon": "layers-outline",
+        "name": "Popover",
+        "redirectTo": "/popover"
     }
 ]
